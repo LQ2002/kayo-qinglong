@@ -1,7 +1,7 @@
 version: '2'
 services:
   web:
-    image: whyour/qinglong:develop
+    image: whyour/qinglong:latest
     volumes:
       - ./data:/ql/data
     ports:
